@@ -3,12 +3,13 @@ version: 1
 project:
   # TODO: make this yours
   title: 'My MyST Book'
-  subtitle: An interactive book built with MyST
+  subtitle: Midterm-Project
   # TODO: add yourself. This is the same author schema a real MOOC contribution uses.
   authors:
-    - name: Your Name
+    - name: Lucas Schulze
       affiliations:
         - Polytechnique Montréal
+        - GBM8360
   copyright: '2026'
   license: CC-BY-4.0
   open_access: true
@@ -58,13 +59,11 @@ project:
       # a duplicate of the figure. Add new chapters here as well as in `toc`.
       articles:
         - file: index.md
-        - file: 01-getting-started.md
-        - file: 02-interactive-figures.md
+        - file: b0_field.md
 
   toc:
     - file: index.md
-    - file: 01-getting-started.md
-    - file: 02-interactive-figures.md
+    - file: b0_field.md
     # Notebooks must appear in the toc for MyST to build (and execute) them --
     # otherwise `:::{figure} #label` has nothing to embed and silently renders empty.
     # `hidden: true` keeps it built and referenceable without publishing it as a
