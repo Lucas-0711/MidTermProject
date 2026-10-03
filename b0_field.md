@@ -16,12 +16,20 @@ However, they can only align in two specific ways:
 
 Because the parallel state requires less energy, a slightly larger number of protons choose to "walk on their feet". For every 10 million protons pointing against the field, there are roughly 10,000,007 pointing with it. This tiny, unopposed majority adds up to create a new, measurable magnetic force within the patient: the **Net Magnetization**. {cite}`Schild1990`
 
+:::{figure} #fig1 
+:name: B0_Alignment
+
+Using the slider you can explore how the protons (small cones) align in the $B_0$ field.
+:::
+
 ## The Impact of Ultra-High Fields (1.5 T to 7 T)
 The primary purpose of the $B_0$ magnet is to create this polarization {cite}`Larson2026`. The stronger the external magnetic field, the more protons are forced into the parallel alignment. A shift from a clinical 1.5 T scanner to an Ultra-High-Field 7 T scanner dramatically increases the net magnetization, providing a stronger signal and significantly sharper images.
 
-Use the interactive 3D visualization below to increase the $B_0$ field strength. Watch how the initially random protons (small cones) align, causing the net magnetization vector (the large central arrow) to grow.
+:::{figure} #fig2 
+:name: B0_Alignment0-7T
 
-```{embed} B0_Polarization.ipynb#polarization-3d```
+Use the slider to increase the $B_0$ field strength. Watch how the initially random protons (small cones) align, causing the net magnetization vector (the large central arrow) to grow.
+:::
 
 **Safety Hazard: The Missile Effect**
 Creating a 3T or 7T field requires massive electromagnets made of superconducting coils bathed in liquid helium. Because they are superconducting, **the magnet is ALWAYS ON.** The invisible magnetic field extends far beyond the scanner bore. Any ferromagnetic objects (like scissors, oxygen tanks, or certain implants) brought into the room can be violently sucked into the scanner, creating a lethal projectile hazard.
