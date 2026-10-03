@@ -35,6 +35,7 @@ project:
     DFT: Discrete Fourier Transform
     SNR: Signal-to-noise ratio
     CSF: Cerebrospinal fluid
+    T: Tesla
 
   bibliography:
     - bibliography/references.bib
