@@ -30,6 +30,3 @@ The primary purpose of the $B_0$ magnet is to create this polarization {cite}`La
 
 Use the slider to increase the $B_0$ field strength. Watch how the initially random protons (small cones) align, causing the net magnetization vector (the large central arrow) to grow.
 :::
-
-**Safety Hazard: The Missile Effect**
-Creating a 3T or 7T field requires massive electromagnets made of superconducting coils bathed in liquid helium. Because they are superconducting, **the magnet is ALWAYS ON.** The invisible magnetic field extends far beyond the scanner bore. Any ferromagnetic objects (like scissors, oxygen tanks, or certain implants) brought into the room can be violently sucked into the scanner, creating a lethal projectile hazard.
