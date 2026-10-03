@@ -70,7 +70,9 @@ project:
     # `hidden: true` keeps it built and referenceable without publishing it as a
     # chapter of its own, so the reader gets the figure in context rather than a
     # second copy next to a page of source code.
-    - file: notebooks/figure-demo.ipynb
+    - file: notebooks/B0_Alignment.ipynb
+      hidden: true
+    - file: notebooks/B0_Alignment0-7T.ipynb
       hidden: true
 
 site:
