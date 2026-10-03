@@ -61,10 +61,12 @@ project:
       articles:
         - file: index.md
         - file: b0_field.md
+        - file: hardware.md
 
   toc:
     - file: index.md
     - file: b0_field.md
+    - file: hardware.md
     # Notebooks must appear in the toc for MyST to build (and execute) them --
     # otherwise `:::{figure} #label` has nothing to embed and silently renders empty.
     # `hidden: true` keeps it built and referenceable without publishing it as a
