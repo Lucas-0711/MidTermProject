@@ -1,8 +1,8 @@
 # The Impact of $B_0$ Field Strength on Image Quality
 
-Moving from a standard 1.5T scanner to 3T, 7T, or beyond fundamentally alters the physics of the scan. A stronger magnetic field is not simply a "better camera"—it introduces complex trade-offs between signal, contrast, and physiological safety.
+Moving from a standard 1.5T scanner to 3T, 7T, or beyond fundamentally alters the physics of the scan. A stronger magnetic field is not simply a "better camera", it introduces complex trade-offs between signal, contrast, and physiological safety.
 
-## Understanding Signal-to-Noise Ratio (SNR)
+## Signal-to-Noise Ratio
 Signal-to-Noise Ratio (SNR) is the fundamental metric of image quality in MRI. It represents the ratio of true, usable image data (signal) emitted by the tissue to the random electronic interference (noise) inherent in the system. A high SNR produces a clear, sharp, and detailed image, whereas a low SNR results in a grainy, "noisy" appearance.
 
 In MRI, SNR is primarily governed by four factors:
