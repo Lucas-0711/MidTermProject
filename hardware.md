@@ -5,7 +5,9 @@ To manipulate billions of microscopic protons, we need macroscopic, extremely po
 ## The Solenoid Design
 According to Maxwell's equations of electromagnetism, an electrical current running through a wire induces a magnetic field {cite}`Schild1990`. By linking many loops of wire together into a cylinder, a design known as a **solenoid**, we can create a large, highly homogeneous magnetic field inside the bore {cite}`Larson2026`. 
 
-<img width="1600" height="900" alt="Solenoid" src="https://github.com/user-attachments/assets/ae1d304e-a91b-46b0-b302-4c846b112a4b" />
+<img width="1067" height="600" alt="Solenoid" src="https://github.com/user-attachments/assets/ae1d304e-a91b-46b0-b302-4c846b112a4b" />
+
+The strength of this magnetic field depends directly on the amount of current flowing through the wires.
 
 ## Achieving High Fields: Superconductivity
 While early MRI systems used permanent magnets (which are incredibly heavy and limited in field strength) or resistive electromagnets (which generate massive amounts of heat), modern 1.5T, 3T, and 7T scanners rely on **superconducting magnets** {cite}`Schild1990`.
