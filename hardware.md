@@ -27,7 +27,8 @@ Therefore, to safely increase the field strength, engineers must drastically inc
 
 :::{figure} #fig3 :name: Solenoid_Wire_Density
 
-Using the slider, observe how increasing the target $B_0$ field requires a much higher density of wire turns $N$ to avoid exceeding the critical current limit of the superconductor. (Note that the number of loops shown in the interactive plot is a didactic simplification)  :::
+Using the slider, observe how increasing the target $B_0$ field requires a much higher density of wire turns $N$ to avoid exceeding the critical current limit of the superconductor. (Note that the number of loops shown in the interactive plot is a didactic simplification)
+:::  
 
 <img width="409" height="338" alt="mri-scanner2" src="https://github.com/user-attachments/assets/58e3cec2-89c6-434e-892b-41d4aa324194" />
 
