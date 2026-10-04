@@ -20,8 +20,14 @@ To achieve the massive currents required for clinical and Ultra-High-Field imagi
 
 If the temperature inside the magnet rises above the superconducting threshold, the wire suddenly regains its electrical resistance. This leads to rapid, massive heat production, causing the liquid helium to boil off instantly and escape through emergency vent pipes (quench lines). This rare and expensive event is known as a quench and causes an immediate loss of the magnetic field. {cite}`Schild1990`
 
-**Structural Differences (1.5T vs 7T):**
-Moving from a 1.5T to a 7T system requires exponentially more wire, larger helium reservoirs, and massive iron shielding to contain the fringe magnetic field. This makes 7T scanners significantly heavier, bulkier, and more expensive to install and maintain.
+**Structural Differences:**
+Looking at Ampère's Law, one might assume we could simply pump more current $I$ through the wire to achieve 7T or 9.4T. However, superconducting materials (like Niobium-Titanium) have a strict physical limit called the **critical current**. If the current exceeds this limit, the wire loses its superconductivity, regains electrical resistance, and triggers a massive quench. 
+
+Therefore, to safely increase the field strength, engineers must drastically increase the number of wire turns $N$. Moving from a 1.5T to a 7T system requires hundreds of kilometers of additional wire. This exponentially increases the system's weight, requires larger helium reservoirs, and demands massive iron shielding, making ultra-high-field scanners significantly heavier and more expensive.
+
+:::{figure} #fig3 :name: Solenoid_Wire_Density
+
+Using the slider, observe how increasing the target $B_0$ field requires a much higher density of wire turns $N$ to avoid exceeding the critical current limit of the superconductor. (Note that the number of loops shown in the interactive plot is a didactic simplification)  :::
 
 <img width="409" height="338" alt="mri-scanner2" src="https://github.com/user-attachments/assets/58e3cec2-89c6-434e-892b-41d4aa324194" />
 
