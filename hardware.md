@@ -51,8 +51,10 @@ These massive magnets are currently restricted almost entirely to imaging the hu
 *   **Neurological Value:** Moving to 9.4T provides a massive boost in Signal-to-Noise Ratio ([SNR](b0-image-quality/#understanding-signal-to-noise-ratio-snr)). This allows for unprecedented spatial resolution to visualize microscopic brain structures, cortical layers, and extremely subtle lesions (such as those in drug-resistant epilepsy). Furthermore, the magnetic susceptibility effects used in functional MRI (fMRI) scale strongly with field strength, making 9.4T an unparalleled tool for neuroscience.
 *   **Physics Constraints (Wavelength & SAR):** At 9.4T, the resonance frequency reaches 400 MHz. At this frequency, the RF wavelength is actually shorter than the human torso. This creates severe wave interference patterns, signal voids, and extremely complex tissue heating (SAR) challenges. Limiting the scan to a smaller, more uniform volume like the head makes these physical hurdles manageable.
 
-**Clinical Reality vs. Research:**
-Currently, 9.4T MRI is strictly an investigational tool for basic research and is not part of routine clinical practice. Due to the massive installation costs, building requirements (huge magnetic fringe fields), and the immense complexity of ensuring physiological safety (PNS and SAR limits), 9.4T systems have no general clinical approval. While 7T is slowly transitioning into specialized clinical use, 9.4T will remain an instrument of high-end scientific exploration for the foreseeable future.
+> [!NOTE]
+> **Clinical Reality**
+> Currently, 9.4T MRI is strictly an investigational tool for basic research and is not part of routine clinical practice. Due to the massive installation costs, > building requirements, and the immense complexity of ensuring physiological safety, 9.4T systems have no general clinical approval. While 7T is slowly
+> transitioning into specialized clinical use, 9.4T will remain an instrument of high-end scientific exploration for the foreseeable future.
 
 ### Beyond Human Imaging: 15.2T Preclinical Scanners
 To push the boundaries of spatial resolution even further, researchers use ultra-high-field systems designed exclusively for small animals, such as mice or rats. For example, the Centre for Functional and Metabolic Mapping (CFMM) operates a 15.2 Tesla preclinical MRI, which allows researchers to achieve microscopic image resolutions, visualizing individual cellular structures or mapping brain connectivity in unprecedented detail {cite}`CFMM_152T`.
