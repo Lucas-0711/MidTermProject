@@ -31,13 +31,6 @@ Therefore, to safely increase the field strength, engineers must drastically inc
 Using the slider, observe how increasing the target $B_0$ field requires a much higher density of wire turns $N$ to avoid exceeding the critical current limit of the superconductor. (Note that the number of loops shown in the interactive plot is a didactic simplification)
 :::
 
-:::{figure} #fig3 :name: Solenoid_Field
-
-Using the slider, observe how increasing the target $B_0$ field requires a much higher density of wire turns $N$ to avoid exceeding the critical current limit of the superconductor. (Note that the number of loops shown in the interactive plot is a didactic simplification)
-:::  
-
-<img width="409" height="338" alt="mri-scanner2" src="https://github.com/user-attachments/assets/58e3cec2-89c6-434e-892b-41d4aa324194" />
-
 ### Sustainable Innovations: The Low-Helium MRI
 While traditional superconducting magnets require massive amounts of liquid helium (often over 1,000 liters), recent breakthroughs have dramatically reduced this dependency. In 2023, the team of Dr. Stephan Biber and Dr. David M. Grodzki from Siemens Healthineers, along with Prof. Dr. Michael Uder from Uniklinikum Erlangen, was awarded the prestigious "Deutscher Zukunftspreis" (German Future Prize) {cite}`Zukunftspreis2023`. 
 
