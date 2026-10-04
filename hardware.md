@@ -11,8 +11,9 @@ $$B = \frac{\mu_0 I N}{l}$$
 
 where $B$ is the magnetic flux density, $l$ is the length of the solenoid, $\mu_0$ is the magnetic constant, $N$ the number of turns, and $I$ the current. 
 
-<img width="720" height="423" alt="Solenoid_and_Ampere_Law_-_2" src="https://github.com/user-attachments/assets/5cd92e18-7341-4ecb-879b-b0330ae58b7d" />  
-<br> [Wikipedia/Solenoid](https://en.wikipedia.org/wiki/Solenoid#/media/File:Solenoid_and_Ampere_Law_-_2.png)
+<img width="720" height="423" alt="Solenoid_and_Ampere_Law_-_2" src="https://github.com/user-attachments/assets/5cd92e18-7341-4ecb-879b-b0330ae58b7d" />
+
+[Wikipedia/Solenoid](https://en.wikipedia.org/wiki/Solenoid#/media/File:Solenoid_and_Ampere_Law_-_2.png)
 
 ## Achieving High Fields: Superconductivity
 While early MRI systems used permanent magnets (which are incredibly heavy and limited in field strength) or resistive electromagnets (which generate massive amounts of heat), modern 1.5T, 3T, and 7T scanners rely on **superconducting magnets** {cite}`Schild1990`.
@@ -38,7 +39,8 @@ While traditional superconducting magnets require massive amounts of liquid heli
 They developed a novel MRI system equipped with "DryCool" technology that operates with a sealed-for-life magnet requiring only 0.7 liters of liquid helium {cite}`SiemensFreeMax`. This innovation makes MRI technology more accessible globally, easier to install without massive quench pipes, and significantly more sustainable.
 
 <img width="786" height="786" alt="Zukunftspreis_Neues_Modul_L1000241" src="https://github.com/user-attachments/assets/a5111f04-4251-4514-a32e-d0b4e2ab8d8a" />
-<br> [Photo: Ansgar Pudenz/Deutscher Zukunftspreis]
+
+[Photo: Ansgar Pudenz/Deutscher Zukunftspreis]
 
 [Exhibition Deutsches Museum Munich](https://www.deutsches-museum.de/museum/aktuell/offen-fuer-alle-ein-mrt-fuer-die-welt)
 
@@ -56,7 +58,8 @@ Currently, 9.4T MRI is strictly an investigational tool for basic research and i
 To push the boundaries of spatial resolution even further, researchers use ultra-high-field systems designed exclusively for small animals, such as mice or rats. For example, the Centre for Functional and Metabolic Mapping (CFMM) operates a 15.2 Tesla preclinical MRI, which allows researchers to achieve microscopic image resolutions, visualizing individual cellular structures or mapping brain connectivity in unprecedented detail {cite}`CFMM_152T`.
 
 <img width="515.7" height="409.3" alt="15 2T_001" src="https://github.com/user-attachments/assets/61a2afb6-2276-42b0-b3df-72b45d532e32" />
-<br> [CFMM 15.2T](https://cfmm.uwo.ca/about/facility/15.2t_mri/index.html)
+
+[CFMM 15.2T](https://cfmm.uwo.ca/about/facility/15.2t_mri/index.html)
 
 
 **The Bore Size Trade-off:**
