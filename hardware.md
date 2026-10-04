@@ -5,6 +5,10 @@ To manipulate billions of microscopic protons, we need macroscopic, extremely po
 ## The Solenoid Design
 According to Maxwell's equations of electromagnetism, an electrical current running through a wire induces a magnetic field {cite}`Schild1990`. By linking many loops of wire together into a cylinder, a design known as a **solenoid**, we can create a large, highly homogeneous magnetic field inside the bore {cite}`Larson2026`. 
 
+:::{figure} images/solenoid.jpg :name: Solenoid
+
+Using the slider you can explore how the protons (small cones) align in the B 0 field. :::
+
 The strength of this magnetic field depends directly on the amount of current flowing through the wires.
 
 ## Achieving High Fields: Superconductivity
