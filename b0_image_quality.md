@@ -11,7 +11,7 @@ In MRI, SNR is primarily governed by four factors:
 3. **Scan Time (Averages):** Measuring the same slice multiple times increases the true signal while averaging out random noise ($SNR \propto \sqrt{t}$).
 4. **RF Coils:** Placing receiver coils closer to the body captures more pure signal and less environmental noise.
 
-## The SNR Currency: Resolution vs. Time
+## Balancing Spatial Resolution and Scan Speed
 Because SNR increases approximately linearly with the static magnetic field strength ($SNR \propto B_0$), a 3T scanner inherently provides roughly double the baseline SNR of a 1.5T scanner. This surplus acts as a "currency" that technologists can spend in two ways:
 *   **Higher Spatial Resolution:** The extra signal can be divided into smaller voxels, providing sharper images capable of resolving finer anatomical details (e.g., minute ligaments or cranial nerves).
 *   **Faster Scan Times:** If the baseline 1.5T resolution is sufficient, the extra signal can be used to accelerate the scan. Since $SNR \propto \sqrt{\text{Time}}$, doubling the baseline SNR allows the scan time to be cut significantly while maintaining diagnostic quality.
