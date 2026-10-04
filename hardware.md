@@ -11,7 +11,7 @@ $$B = \frac{\mu_0 I N}{l}$$
 
 where $B$ is the magnetic flux density, $l$ is the length of the solenoid, $\mu_0$ is the magnetic constant, $N$ the number of turns, and $I$ the current. 
 
-<img width="1080" height="634.5" alt="Solenoid_and_Ampere_Law_-_2" src="https://github.com/user-attachments/assets/5cd92e18-7341-4ecb-879b-b0330ae58b7d" />
+<img width="720" height="423" alt="Solenoid_and_Ampere_Law_-_2" src="https://github.com/user-attachments/assets/5cd92e18-7341-4ecb-879b-b0330ae58b7d" />
 
 ## Achieving High Fields: Superconductivity
 While early MRI systems used permanent magnets (which are incredibly heavy and limited in field strength) or resistive electromagnets (which generate massive amounts of heat), modern 1.5T, 3T, and 7T scanners rely on **superconducting magnets** {cite}`Schild1990`.
