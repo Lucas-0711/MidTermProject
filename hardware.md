@@ -30,6 +30,24 @@ While traditional superconducting magnets require massive amounts of liquid heli
 
 They developed a novel MRI system equipped with "DryCool" technology that operates with a sealed-for-life magnet requiring only 0.7 liters of liquid helium {cite}`SiemensFreeMax`. This innovation makes MRI technology more accessible globally, easier to install without massive quench pipes, and significantly more sustainable.
 
+### Pushing the Limits: 9.4T Research Scanners
+While 1.5T and 3T are the clinical standard, the absolute cutting edge of human MRI lies at ultra-high fields like 9.4 Tesla. There are only a handful of 9.4T systems worldwide authorized for human use—notable European examples being located at the research institutes in Tübingen and Jülich, Germany.
+
+These massive magnets are currently restricted almost entirely to imaging the human head, and for several fundamental reasons:
+*   **Neurological Value:** Moving to 9.4T provides a massive boost in Signal-to-Noise Ratio (SNR). This allows for unprecedented spatial resolution to visualize microscopic brain structures, cortical layers, and extremely subtle lesions (such as those in drug-resistant epilepsy). Furthermore, the magnetic susceptibility effects used in functional MRI (fMRI) scale strongly with field strength, making 9.4T an unparalleled tool for neuroscience.
+*   **Physics Constraints (Wavelength & SAR):** At 9.4T, the resonance frequency reaches 400 MHz. At this frequency, the RF wavelength is actually shorter than the human torso. This creates severe wave interference patterns, signal voids, and extremely complex tissue heating (SAR) challenges. Limiting the scan to a smaller, more uniform volume like the head makes these physical hurdles manageable.
+
+**Clinical Reality vs. Research:**
+Currently, 9.4T MRI is strictly an investigational tool for basic research and is not part of routine clinical practice. Due to the massive installation costs, building requirements (huge magnetic fringe fields), and the immense complexity of ensuring physiological safety (PNS and SAR limits), 9.4T systems have no general clinical approval. While 7T is slowly transitioning into specialized clinical use, 9.4T will remain an instrument of high-end scientific exploration for the foreseeable future.
+
+### Beyond Human Imaging: 15.2T Preclinical Scanners
+To push the boundaries of spatial resolution even further, researchers use ultra-high-field systems designed exclusively for small animals, such as mice or rats. For example, the Centre for Functional and Metabolic Mapping (CFMM) operates a 15.2 Tesla preclinical MRI, which allows researchers to achieve microscopic image resolutions, visualizing individual cellular structures or mapping brain connectivity in unprecedented detail {cite}`CFMM_152T`.
+
+**The Bore Size Trade-off:**
+A defining characteristic of these extreme-field scanners is their incredibly narrow bore (often just a few centimeters in diameter). There are two primary physics and engineering reasons why the scanner bore must shrink as the magnetic field increases:
+*   **Electromagnetic Hoop Stress:** As the magnetic field strength increases, the outward electromagnetic forces (Lorentz forces) acting on the superconducting coils become immense. To prevent the wire coils from literally ripping themselves apart under this stress, the physical diameter of the wire loops must be kept as small as possible. 
+*   **Field Homogeneity and Cost:** Maintaining a perfectly uniform (homogeneous) magnetic field across a large volume becomes exponentially more difficult and expensive at higher field strengths. Shrinking the bore size makes it physically and financially feasible to create a stable, homogeneous $B_0$ field at 15.2T.
+
 ## Critical Safety Aspects
 
 The most important rule of MRI safety stems directly from the hardware design: because the coils are superconducting, the $B_0$ field is permanently active, 24/7, even when no patient is being scanned and no power is being drawn from the hospital grid {cite}`Larson2026`.
@@ -56,3 +74,4 @@ To manage this safely, several systems are in place:
 Beyond the hardware, the scanner's operating software acts as a continuous, automated safety monitor during the exam:
 *   **SAR Limits:** The system calculates and strictly limits the Specific Absorption Rate (SAR) to prevent the radiofrequency pulses from dangerously heating the patient's tissue.
 *   **PNS Limits:** The rapid switching of the gradient coils is closely governed to avoid inducing unwanted electrical currents in the patient's body, which could cause painful Peripheral Nerve Stimulation (PNS) or involuntary muscle twitching.
+
