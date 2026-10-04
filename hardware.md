@@ -55,6 +55,10 @@ Currently, 9.4T MRI is strictly an investigational tool for basic research and i
 ### Beyond Human Imaging: 15.2T Preclinical Scanners
 To push the boundaries of spatial resolution even further, researchers use ultra-high-field systems designed exclusively for small animals, such as mice or rats. For example, the Centre for Functional and Metabolic Mapping (CFMM) operates a 15.2 Tesla preclinical MRI, which allows researchers to achieve microscopic image resolutions, visualizing individual cellular structures or mapping brain connectivity in unprecedented detail {cite}`CFMM_152T`.
 
+<img width="515.7" height="409.3" alt="15 2T_001" src="https://github.com/user-attachments/assets/61a2afb6-2276-42b0-b3df-72b45d532e32" /> <br>
+[CFMM 15.2T](https://cfmm.uwo.ca/about/facility/15.2t_mri/index.html]
+
+
 **The Bore Size Trade-off:**
 A defining characteristic of these extreme-field scanners is their incredibly narrow bore (often just a few centimeters in diameter). There are two primary physics and engineering reasons why the scanner bore must shrink as the magnetic field increases:
 *   **Electromagnetic Hoop Stress:** As the magnetic field strength increases, the outward electromagnetic forces (Lorentz forces) acting on the superconducting coils become immense. To prevent the wire coils from literally ripping themselves apart under this stress, the physical diameter of the wire loops must be kept as small as possible. 
