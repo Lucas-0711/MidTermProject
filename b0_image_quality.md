@@ -28,6 +28,10 @@ Both magnetic susceptibility and chemical shift effects scale linearly with $B_0
 *   **Chemical Shift:** The resonance frequency difference between fat and water protons grows at higher fields.
     *   *Pros:* Makes it much easier to isolate and selectively suppress the fat signal (Fat Saturation).
     *   *Cons:* Increases the "chemical shift artifact" (black and white borders) at interfaces where fat and water coexist, requiring higher receiver bandwidths to correct.
+ 
+<img width="552" height="373" alt="chemical shift artifact" src="https://github.com/user-attachments/assets/513a2d0a-f065-4712-9405-3d6f3c2c4a3e" />
+
+[MRIquestions](https://mriquestions.com/chemical-shift-2nd-kind.html)
 
 ## The Limiting Factor: SAR (Tissue Heating)
 While signal increases linearly with $B_0$, the radiofrequency (RF) energy required to tilt the protons increases quadratically ($\text{SAR} \propto B_0^2$). 
