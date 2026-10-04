@@ -1,8 +1,3 @@
----
-title: The $B_0$ Field: MRI Hardware, Physics, and Patient Safety
-description: Midterm Project
----
-
 ## About this book
 
 This interactive guide focuses on the foundational element of Magnetic Resonance Imaging: the static magnetic field ($B_0$). It explores how this massive field is physically generated through superconducting hardware, how it dictates the environment of the MRI suite, and how it directly impacts the patient.
