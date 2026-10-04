@@ -42,7 +42,7 @@ These massive magnets are currently restricted almost entirely to imaging the hu
 > SNR is the ratio of true, usable image data (signal) from the tissue to random electronic interference (noise). 
 > * **High SNR:** Clear, sharp, detailed image.
 > * **Low SNR:** Grainy, "noisy" image.
-
+>
 > In MRI, SNR is primarily driven by four factors:
 > 1. **Field Strength ($B_0$):** Higher fields polarize more protons. (3T offers roughly double the SNR of 1.5T).
 > 2. **Voxel Size:** Larger 3D-pixels yield more signal, but reduce spatial resolution.
