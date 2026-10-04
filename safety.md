@@ -3,9 +3,13 @@
 The most important rule of MRI safety stems directly from the hardware design: because the coils are superconducting, the $B_0$ field is permanently active, 24/7, even when no patient is being scanned and no power is being drawn from the hospital grid {cite}`Larson2026`.
 
 ## The Fringe Field and Magnetic Shielding
-The magnetic field does not magically stop inside the scanner bore; it extends outward in all directions, creating an invisible 3D volume known as the **fringe field**. To protect the surrounding hospital environment and ensure pacemakers or other sensitive electronics are not disrupted, this field must be contained within a safe radius (typically defined by the 5-Gauss line). MRI systems achieve this containment through shielding:
+The magnetic field does not magically stop inside the scanner bore; it extends outward in all directions, creating an invisible 3D volume known as the **fringe field**. To protect the surrounding hospital environment and ensure pacemakers or other sensitive electronics are not disrupted, this field must be contained within a safe radius (typically defined by the 5-Gauss line (0.5mT)). MRI systems achieve this containment through shielding:
 *   **Passive Shielding:** Installing massive amounts of iron or steel plates inside the walls of the MRI room. While effective, this adds immense weight and structural requirements to the building.
 *   **Active Shielding (Self-Shielding):** Most modern clinical scanners rely on an elegant built-in hardware solution. Additional superconducting coils are wrapped outside the primary main coils, carrying electrical current in the exact opposite direction. This intentionally cancels out the magnetic field outside the scanner housing, drastically shrinking the physical footprint of the fringe field.
+
+<img width="850" height="649" alt="Comparison-of-fringe-magnetic-fields-of-two-clinical-MRI-systems-Fringe-magnetic-fields" src="https://github.com/user-attachments/assets/944a5210-598a-418e-8a63-a54c0d4cb370" />
+
+[Safety Considerations of 7-T MRI in Clinical Practice - Scientific Figure on ResearchGate](https://www.researchgate.net/figure/Comparison-of-fringe-magnetic-fields-of-two-clinical-MRI-systems-Fringe-magnetic-fields_fig1_334496429)
 
 ## The Missile Effect and Access Control
 Ferromagnetic materials—such as steel oxygen tanks, scissors, keys, office chairs, and certain medical implants—experience extreme attractive forces when brought into the fringe field. They can be violently sucked into the bore, turning into lethal projectiles in a fraction of a second. 
