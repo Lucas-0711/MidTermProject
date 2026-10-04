@@ -16,9 +16,11 @@ where $B$ is the magnetic flux density, $l$ is the length of the solenoid, $\mu_
 ## Achieving High Fields: Superconductivity
 While early MRI systems used permanent magnets (which are incredibly heavy and limited in field strength) or resistive electromagnets (which generate massive amounts of heat), modern 1.5T, 3T, and 7T scanners rely on **superconducting magnets** {cite}`Schild1990`.
 
-To achieve the massive currents required for clinical and Ultra-High-Field imaging without melting the wires, the solenoid coils are made of superconducting alloys {cite}`Larson2026`. These coils are bathed in liquid helium (a cryogen), cooling them to approximately 4 Kelvin (-269° C). At this temperature, the material loses all electrical resistance. Once the current is introduced during installation, it flows permanently without requiring additional electrical energy to maintain the field. {cite}`Schild1990`
+To achieve the massive currents required for clinical and Ultra-High-Field imaging without melting the wires, the solenoid coils are made of superconducting alloys {cite}`Larson2026`. These coils are bathed in liquid helium, cooling them to approximately 4 Kelvin (-269° C). At this temperature, the material loses all electrical resistance. Once the current is introduced during installation, it flows permanently without requiring additional electrical energy to maintain the field. {cite}`Schild1990`
 
 If the temperature inside the magnet rises above the superconducting threshold, the wire suddenly regains its electrical resistance. This leads to rapid, massive heat production, causing the liquid helium to boil off instantly and escape through emergency vent pipes (quench lines). This rare and expensive event is known as a quench and causes an immediate loss of the magnetic field. {cite}`Schild1990`
+
+<img width="818" height="776" alt="mri-scanner2" src="https://github.com/user-attachments/assets/58e3cec2-89c6-434e-892b-41d4aa324194" />
 
 **Structural Differences (1.5T vs 7T):**
 Moving from a 1.5T to a 7T system requires exponentially more wire, larger helium reservoirs, and massive iron shielding to contain the fringe magnetic field. This makes 7T scanners significantly heavier, bulkier, and more expensive to install and maintain.
