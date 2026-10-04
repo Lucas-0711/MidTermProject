@@ -1,4 +1,4 @@
-# Hardware: Generating the $B_0$ Field
+# Scanner Hardware
 
 To manipulate billions of microscopic protons, we need macroscopic, extremely powerful hardware. A modern MRI scanner is essentially a giant, multi-layered electromagnet. 
 
