@@ -11,7 +11,7 @@ $$B = \frac{\mu_0 I N}{l}$$
 
 where $B$ is the magnetic flux density, $l$ is the length of the solenoid, $\mu_0$ is the magnetic constant, $N$ the number of turns, and $I$ the current. 
 
-<img width="2160" height="1269" alt="Solenoid_and_Ampere_Law_-_2" src="https://github.com/user-attachments/assets/5cd92e18-7341-4ecb-879b-b0330ae58b7d" />
+<img width="1080" height="634.5" alt="Solenoid_and_Ampere_Law_-_2" src="https://github.com/user-attachments/assets/5cd92e18-7341-4ecb-879b-b0330ae58b7d" />
 
 ## Achieving High Fields: Superconductivity
 While early MRI systems used permanent magnets (which are incredibly heavy and limited in field strength) or resistive electromagnets (which generate massive amounts of heat), modern 1.5T, 3T, and 7T scanners rely on **superconducting magnets** {cite}`Schild1990`.
@@ -20,10 +20,10 @@ To achieve the massive currents required for clinical and Ultra-High-Field imagi
 
 If the temperature inside the magnet rises above the superconducting threshold, the wire suddenly regains its electrical resistance. This leads to rapid, massive heat production, causing the liquid helium to boil off instantly and escape through emergency vent pipes (quench lines). This rare and expensive event is known as a quench and causes an immediate loss of the magnetic field. {cite}`Schild1990`
 
-<img width="818" height="776" alt="mri-scanner2" src="https://github.com/user-attachments/assets/58e3cec2-89c6-434e-892b-41d4aa324194" />
-
 **Structural Differences (1.5T vs 7T):**
 Moving from a 1.5T to a 7T system requires exponentially more wire, larger helium reservoirs, and massive iron shielding to contain the fringe magnetic field. This makes 7T scanners significantly heavier, bulkier, and more expensive to install and maintain.
+
+<img width="409" height="338" alt="mri-scanner2" src="https://github.com/user-attachments/assets/58e3cec2-89c6-434e-892b-41d4aa324194" />
 
 ### Sustainable Innovations: The Low-Helium MRI
 While traditional superconducting magnets require massive amounts of liquid helium (often over 1,000 liters), recent breakthroughs have dramatically reduced this dependency. In 2023, the team of Dr. Stephan Biber and Dr. David M. Grodzki from Siemens Healthineers, along with Prof. Dr. Michael Uder from Uniklinikum Erlangen, was awarded the prestigious "Deutscher Zukunftspreis" (German Future Prize) {cite}`Zukunftspreis2023`. 
