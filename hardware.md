@@ -31,11 +31,23 @@ While traditional superconducting magnets require massive amounts of liquid heli
 They developed a novel MRI system equipped with "DryCool" technology that operates with a sealed-for-life magnet requiring only 0.7 liters of liquid helium {cite}`SiemensFreeMax`. This innovation makes MRI technology more accessible globally, easier to install without massive quench pipes, and significantly more sustainable.
 
 ### Pushing the Limits: 9.4T Research Scanners
-While 1.5T and 3T are the clinical standard, the absolute cutting edge of human MRI lies at ultra-high fields like 9.4 Tesla. There are only a handful of 9.4T systems worldwide authorized for human use—notable European examples being located at the research institutes in Tübingen and Jülich, Germany.
+While 1.5T and 3T are the clinical standard, the absolute cutting edge of human MRI lies at ultra-high fields like 9.4 Tesla. There are only a handful of 9.4T systems worldwide authorized for human use (notable European examples being located at the research institutes in Tübingen and Jülich, Germany).
 
 These massive magnets are currently restricted almost entirely to imaging the human head, and for several fundamental reasons:
 *   **Neurological Value:** Moving to 9.4T provides a massive boost in Signal-to-Noise Ratio (SNR). This allows for unprecedented spatial resolution to visualize microscopic brain structures, cortical layers, and extremely subtle lesions (such as those in drug-resistant epilepsy). Furthermore, the magnetic susceptibility effects used in functional MRI (fMRI) scale strongly with field strength, making 9.4T an unparalleled tool for neuroscience.
 *   **Physics Constraints (Wavelength & SAR):** At 9.4T, the resonance frequency reaches 400 MHz. At this frequency, the RF wavelength is actually shorter than the human torso. This creates severe wave interference patterns, signal voids, and extremely complex tissue heating (SAR) challenges. Limiting the scan to a smaller, more uniform volume like the head makes these physical hurdles manageable.
+
+:::{note} 
+**Concept: Signal-to-Noise Ratio (SNR)**
+SNR is the ratio of true, usable image data (signal) from the tissue to random electronic interference (noise). 
+* **High SNR:** Clear, sharp, detailed image.
+* **Low SNR:** Grainy, "noisy" image.
+
+In MRI, SNR is primarily driven by four factors:
+1. **Field Strength ($B_0$):** Higher fields polarize more protons. (3T offers roughly double the SNR of 1.5T).
+2. **Voxel Size:** Larger 3D-pixels yield more signal, but reduce spatial resolution.
+3. **Scan Time:** Measuring the same slice multiple times increases signal while averaging out random noise ($SNR \propto \sqrt{t}$).
+4. **RF Coils:** Placing receiver coils closer to the body captures more pure signal and less environmental noise. :::
 
 **Clinical Reality vs. Research:**
 Currently, 9.4T MRI is strictly an investigational tool for basic research and is not part of routine clinical practice. Due to the massive installation costs, building requirements (huge magnetic fringe fields), and the immense complexity of ensuring physiological safety (PNS and SAR limits), 9.4T systems have no general clinical approval. While 7T is slowly transitioning into specialized clinical use, 9.4T will remain an instrument of high-end scientific exploration for the foreseeable future.
