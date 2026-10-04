@@ -25,7 +25,13 @@ Looking at Ampère's Law, one might assume we could simply pump more current $I$
 
 Therefore, to safely increase the field strength, engineers must drastically increase the number of wire turns $N$. Moving from a 1.5T to a 7T system requires hundreds of kilometers of additional wire. This exponentially increases the system's weight, requires larger helium reservoirs, and demands massive iron shielding, making ultra-high-field scanners significantly heavier and more expensive.
 
-:::{figure} #fig3 :name: Solenoid_Wire_Density
+:::{figure} #fig3 
+:name: Solenoid_Field
+
+Using the slider, observe how increasing the target $B_0$ field requires a much higher density of wire turns $N$ to avoid exceeding the critical current limit of the superconductor. (Note that the number of loops shown in the interactive plot is a didactic simplification)
+:::
+
+:::{figure} #fig3 :name: Solenoid_Field
 
 Using the slider, observe how increasing the target $B_0$ field requires a much higher density of wire turns $N$ to avoid exceeding the critical current limit of the superconductor. (Note that the number of loops shown in the interactive plot is a didactic simplification)
 :::  
