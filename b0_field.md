@@ -23,7 +23,7 @@ Using the slider you can explore how the protons (small cones) align in the $B_0
 :::
 
 ## The Impact of Ultra-High Fields 
-The primary purpose of the $B_0$ magnet is to create this polarization {cite}`Larson2026`. The stronger the external magnetic field, the more protons are forced into the parallel alignment. A shift from a clinical 1.5 T scanner to an Ultra-High-Field 7 T scanner dramatically increases the net magnetization, providing a stronger signal and significantly sharper images.
+The primary purpose of the $B_0$ magnet is to create this polarization {cite}`Larson2026`. The stronger the external magnetic field, the more protons are forced into the parallel alignment. A shift from a clinical 1.5T scanner to an Ultra-High-Field 7T scanner dramatically increases the net magnetization, providing a stronger signal and significantly sharper images.
 
 :::{figure} #fig2 
 :name: B0_Alignment0-7T
