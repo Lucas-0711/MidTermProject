@@ -12,7 +12,7 @@ The magnetic field does not magically stop inside the scanner bore; it extends o
 [Safety Considerations of 7-T MRI in Clinical Practice - Scientific Figure on ResearchGate](https://www.researchgate.net/figure/Comparison-of-fringe-magnetic-fields-of-two-clinical-MRI-systems-Fringe-magnetic-fields_fig1_334496429)
 
 ## The Missile Effect and Access Control
-Ferromagnetic materials—such as steel oxygen tanks, scissors, keys, office chairs, and certain medical implants—experience extreme attractive forces when brought into the fringe field. They can be violently sucked into the bore, turning into lethal projectiles in a fraction of a second. 
+Ferromagnetic materials experience extreme attractive forces when brought into the fringe field. They can be violently sucked into the bore, turning into lethal projectiles in a fraction of a second. 
 
 To prevent this, MRI facilities employ a strict **4-Zone Safety Concept** that progressively restricts physical access. Patients and staff undergo rigorous screening for internal implants (like pacemakers or aneurysm clips) before entering Zone IV (the actual scanner room). Many modern facilities also install built-in ferromagnetic metal detectors at the door frame as an additional, automated line of defense.
 
@@ -20,7 +20,7 @@ To prevent this, MRI facilities employ a strict **4-Zone Safety Concept** that p
 If the temperature inside the magnet rises above the superconducting threshold, the wire suddenly regains its electrical resistance. This leads to rapid, massive heat production, causing the liquid helium to boil off instantly and expand by a factor of over 700. This dramatic event is known as a **quench**. {cite}`Schild1990` <br>
 <br>
 To manage this safely, several systems are in place:
-*   **The Quench Pipe:** To prevent the scanner room from fatally pressurizing and displacing all oxygen, a dedicated, heavily reinforced exhaust pipe automatically vents the expanding helium gas outside the building.
+*   **The Quench Pipe:** To prevent the scanner room from fatally pressurizing and displacing all oxygen, a dedicated, heavily reinforced exhaust pipe automatically vents the expanding helium gas outside the building. Nevertheless, the room should be evacuated!
 *   **Emergency Magnet Rundown (Quench Button):** A highly guarded button in the control room allows technologists to manually trigger a quench. This is strictly reserved for life-threatening emergencies (e.g., if a patient is pinned against the scanner by a heavy metallic object).
 *   **Emergency Power Off:** A separate button instantly cuts all electrical power to the room, stopping the motorized patient table, gradients, and RF systems. Crucially, **this does not turn off the main magnetic field**.
 
