@@ -53,7 +53,9 @@ These massive magnets are currently restricted almost entirely to imaging the hu
 
 > [!NOTE]
 > **Clinical Reality**
-> Currently, 9.4T MRI is strictly an investigational tool for basic research and is not part of routine clinical practice. Due to the massive installation costs, > building requirements, and the immense complexity of ensuring physiological safety, 9.4T systems have no general clinical approval. While 7T is slowly
+> 
+> Currently, 9.4T MRI is strictly an investigational tool for basic research and is not part of routine clinical practice. Due to the massive installation costs,
+> building requirements, and the immense complexity of ensuring physiological safety, 9.4T systems have no general clinical approval. While 7T is slowly
 > transitioning into specialized clinical use, 9.4T will remain an instrument of high-end scientific exploration for the foreseeable future.
 
 ### Beyond Human Imaging: 15.2T Preclinical Scanners
