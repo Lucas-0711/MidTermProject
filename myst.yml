@@ -80,6 +80,8 @@ project:
       hidden: true
     - file: notebooks/B0_Alignment0-7T.ipynb
       hidden: true
+    - file: notebooks/Solenoid_Field.ipynb
+      hidden: true
 
 site:
   template: book-theme
