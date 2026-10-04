@@ -7,7 +7,7 @@ Hydrogen protons possess a positive electrical charge and are constantly spinnin
 
 Under normal circumstances, these millions of tiny magnets point in completely random directions. Their individual magnetic fields cancel each other out, leaving the body with no net magnetic force. 
 
-## Polarization: Walking on Feet vs. Hands
+## Polarization
 This chaos changes the moment a patient enters the main magnetic field of the scanner (denoted as $B_0$). Just like a compass needle aligns with the earth's magnetic field, the protons align themselves with the scanner's powerful $B_0$ field. 
 
 However, they can only align in two specific ways:
@@ -22,7 +22,7 @@ Because the parallel state requires less energy, a slightly larger number of pro
 Using the slider you can explore how the protons (small cones) align in the $B_0$ field.
 :::
 
-## The Impact of Ultra-High Fields (1.5 T to 7 T)
+## The Impact of Ultra-High Fields 
 The primary purpose of the $B_0$ magnet is to create this polarization {cite}`Larson2026`. The stronger the external magnetic field, the more protons are forced into the parallel alignment. A shift from a clinical 1.5 T scanner to an Ultra-High-Field 7 T scanner dramatically increases the net magnetization, providing a stronger signal and significantly sharper images.
 
 :::{figure} #fig2 
