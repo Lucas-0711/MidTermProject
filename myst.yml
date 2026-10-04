@@ -2,7 +2,7 @@
 version: 1
 project:
   # TODO: make this yours
-  title: 'My MyST Book'
+  title: 'The $B_0$ Field: MRI Hardware, Physics, and Patient Safety'
   subtitle: Midterm-Project
   # TODO: add yourself. This is the same author schema a real MOOC contribution uses.
   authors:
