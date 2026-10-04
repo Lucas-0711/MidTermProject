@@ -1,4 +1,4 @@
-# The Impact of $B_0$ Field Strength on Image Quality
+# Image Quality
 
 Moving from a standard 1.5T scanner to 3T, 7T, or beyond fundamentally alters the physics of the scan. A stronger magnetic field is not simply a "better camera", it introduces complex trade-offs between signal, contrast, and physiological safety.
 
