@@ -1,4 +1,4 @@
-# Physiological Effects of MRI Fields on the Human Body
+# Physiological Effects
 
 An MRI scanner exposes the human body to three distinct types of magnetic fields: the static main field ($B_0$), the radiofrequency field ($B_1$), and the rapidly switching gradient fields. Each interacts with human physiology in unique ways.
 
