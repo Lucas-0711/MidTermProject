@@ -62,12 +62,14 @@ project:
         - file: index.md
         - file: b0_field.md
         - file: hardware.md
+        - file: b0_image_quality.md
         - file: physiological_effects.md
 
   toc:
     - file: index.md
     - file: b0_field.md
     - file: hardware.md
+    - file: b0_image_quality.md
     - file: physiological_effects.md
     # Notebooks must appear in the toc for MyST to build (and execute) them --
     # otherwise `:::{figure} #label` has nothing to embed and silently renders empty.
