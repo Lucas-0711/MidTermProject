@@ -2,7 +2,7 @@
 version: 1
 project:
   # TODO: make this yours
-  title: 'The $B_0$ Field: MRI Hardware, Physics, and Patient Safety'
+  title: 'The $B_0$ Field: Physics, MRI Hardware, and Patient Safety'
   subtitle: Midterm-Project
   # TODO: add yourself. This is the same author schema a real MOOC contribution uses.
   authors:
@@ -61,15 +61,17 @@ project:
       articles:
         - file: index.md
         - file: b0_field.md
-        - file: hardware.md
         - file: b0_image_quality.md
+        - file: hardware.md
+        - file: safety.md
         - file: physiological_effects.md
 
   toc:
     - file: index.md
     - file: b0_field.md
-    - file: hardware.md
     - file: b0_image_quality.md
+    - file: hardware.md
+    - file: safety.md
     - file: physiological_effects.md
     # Notebooks must appear in the toc for MyST to build (and execute) them --
     # otherwise `:::{figure} #label` has nothing to embed and silently renders empty.
@@ -86,7 +88,7 @@ project:
 site:
   template: book-theme
   options:
-    logo_text: My MyST Book
+    logo_text: The $B_0$ Field: Physics, MRI Hardware, and Patient Safety
   actions:
     - title: Source on GitHub
       url: https://github.com/Lucas-0711
