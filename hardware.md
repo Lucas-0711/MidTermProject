@@ -11,7 +11,7 @@ $$B = \frac{\mu_0 I N}{l}$$
 
 where $B$ is the magnetic flux density, $l$ is the length of the solenoid, $\mu_0$ is the magnetic constant, $N$ the number of turns, and $I$ the current. 
 
-<img width="720" height="423" alt="Solenoid_and_Ampere_Law_-_2" src="https://github.com/user-attachments/assets/5cd92e18-7341-4ecb-879b-b0330ae58b7d" />  
+<img width="720" height="423" alt="Solenoid_and_Ampere_Law_-_2" src="https://github.com/user-attachments/assets/5cd92e18-7341-4ecb-879b-b0330ae58b7d" /> <br>  
 [Wikipedia/Solenoid](https://en.wikipedia.org/wiki/Solenoid#/media/File:Solenoid_and_Ampere_Law_-_2.png)
 
 ## Achieving High Fields: Superconductivity
@@ -37,7 +37,7 @@ While traditional superconducting magnets require massive amounts of liquid heli
 
 They developed a novel MRI system equipped with "DryCool" technology that operates with a sealed-for-life magnet requiring only 0.7 liters of liquid helium {cite}`SiemensFreeMax`. This innovation makes MRI technology more accessible globally, easier to install without massive quench pipes, and significantly more sustainable.
 
-<img width="786" height="786" alt="Zukunftspreis_Neues_Modul_L1000241" src="https://github.com/user-attachments/assets/a5111f04-4251-4514-a32e-d0b4e2ab8d8a" />  
+<img width="786" height="786" alt="Zukunftspreis_Neues_Modul_L1000241" src="https://github.com/user-attachments/assets/a5111f04-4251-4514-a32e-d0b4e2ab8d8a" /> <br>  
 [Photo: Ansgar Pudenz/Deutscher Zukunftspreis]
 
 [Exhibition Deutsches Museum Munich](https://www.deutsches-museum.de/museum/aktuell/offen-fuer-alle-ein-mrt-fuer-die-welt)
