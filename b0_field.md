@@ -1,4 +1,4 @@
-# The Main Magnetic Field ($B_0$)
+# The Static Field
 
 To understand how an MRI generates images, we first have to look at the patient's own hydrogen atoms. 
 
