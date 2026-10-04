@@ -1,4 +1,4 @@
-# 🧲 The $B_0$ Field: MRI Hardware & Patient Safety
+# 🧲 Inside the Magnet: Physics, MRI Hardware, and Patient Safety 
 
 An interactive, open-source educational guide dedicated to the static magnetic field in Magnetic Resonance Imaging, focusing on hardware design, safety protocols, and physiological effects.
 
