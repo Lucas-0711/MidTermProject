@@ -88,7 +88,7 @@ project:
 site:
   template: book-theme
   options:
-    logo_text: The $B_0$ Field: Physics, MRI Hardware, and Patient Safety
+    logo_text: The B_0 Field: Physics, MRI Hardware, and Patient Safety
   actions:
     - title: Source on GitHub
       url: https://github.com/Lucas-0711
