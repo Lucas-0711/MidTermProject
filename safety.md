@@ -1,4 +1,4 @@
-# Critical Safety Aspects
+# MRI Safety
 
 The most important rule of MRI safety stems directly from the hardware design: because the coils are superconducting, the $B_0$ field is permanently active, 24/7, even when no patient is being scanned and no power is being drawn from the hospital grid {cite}`Larson2026`.
 
