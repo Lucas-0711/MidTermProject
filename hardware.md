@@ -5,15 +5,13 @@ To manipulate billions of microscopic protons, we need macroscopic, extremely po
 ## The Solenoid Design
 According to the principles of electromagnetism governed by **Maxwell's equations**, an electrical current ($I$) running through a loop of wire induces a magnetic field ($\vec{B}$){cite}`Schild1990`. The direction of this magnetic field is determined by the "left-hand rule". 
 
-This specific relationship is fundamentally based on **Ampère's Law** (one of Maxwell's equations), which states that the induced magnetic field is directly proportional to the electrical current. For a single circular loop of wire with radius $R$, the magnetic field at the center ($B_Z$) is mathematically defined as:
+This specific relationship is fundamentally based on **Ampère's Law** (one of Maxwell's equations), which states that the induced magnetic field is directly proportional to the electrical current. By linking many of individual loops together into a cylindrical structure, a design known as a **solenoid**, we can extend this effect to create a large region in space with a homogeneous magnetic field, which is required for MRI across a volume {cite}`Larson2026`. As Ampère's Law dictates, increasing the current $I$ directly increases the strength of the resulting magnetic field. 
 
-$$B_Z = \frac{\mu_0 I}{2R}$$
+$$B = \frac{\mu_0 I N}{l}$$
 
-where $\mu_0$ is the magnetic permeability of free space. 
+where $B$ is the magnetic flux density, $l$ is the length of the solenoid, $\mu_0$ is the magnetic constant, $N$ the number of turns, and $I$ the current. 
 
-By linking many of these individual loops together into a cylindrical structure—a design known as a **solenoid**—we can extend this effect to create a large region in space with a homogeneous magnetic field, which is required for MRI across a volume {cite}`Larson2026`. As Ampère's Law dictates, increasing the current $I$ directly increases the strength of the resulting magnetic field.
-
-<img width="1067" height="600" alt="Solenoid" src="https://github.com/user-attachments/assets/ae1d304e-a91b-46b0-b302-4c846b112a4b" />
+<img width="2160" height="1269" alt="Solenoid_and_Ampere_Law_-_2" src="https://github.com/user-attachments/assets/5cd92e18-7341-4ecb-879b-b0330ae58b7d" />
 
 ## Achieving High Fields: Superconductivity
 While early MRI systems used permanent magnets (which are incredibly heavy and limited in field strength) or resistive electromagnets (which generate massive amounts of heat), modern 1.5T, 3T, and 7T scanners rely on **superconducting magnets** {cite}`Schild1990`.
