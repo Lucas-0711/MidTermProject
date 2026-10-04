@@ -56,28 +56,3 @@ To manage this safely, several systems are in place:
 Beyond the hardware, the scanner's operating software acts as a continuous, automated safety monitor during the exam:
 *   **SAR Limits:** The system calculates and strictly limits the Specific Absorption Rate (SAR) to prevent the radiofrequency pulses from dangerously heating the patient's tissue.
 *   **PNS Limits:** The rapid switching of the gradient coils is closely governed to avoid inducing unwanted electrical currents in the patient's body, which could cause painful Peripheral Nerve Stimulation (PNS) or involuntary muscle twitching.
-
-
-
-
-(hardware-chapter)=
-# Hardware & Safety: Generating the $B_0$ Field
-
-To manipulate billions of microscopic protons, we need macroscopic, extremely powerful hardware. A modern MRI scanner is essentially a giant, multi-layered electromagnet. 
-
-## The Solenoid Design
-According to the principles of electromagnetism governed by **Maxwell's equations**, an electrical current ($I$) running through a loop of wire induces a magnetic field ($\vec{B}$)[cite: 46]. The direction of this magnetic field is determined by the "left-hand rule"[cite: 46]. 
-
-This specific relationship is fundamentally based on **Ampère's Law** (one of Maxwell's equations), which states that the induced magnetic field is directly proportional to the electrical current. For a single circular loop of wire with radius $R$, the magnetic field at the center ($B_Z$) is mathematically defined as[cite: 49]:
-
-$$B_Z = \frac{\mu_0 I}{2R}$$
-
-where $\mu_0$ is the magnetic permeability of free space[cite: 49]. 
-
-By linking many of these individual loops together into a cylindrical structure—a design known as a **solenoid**—we can extend this effect to create a large region in space with a homogeneous magnetic field, which is required for MRI across a volume[cite: 47]. As Ampère's Law dictates, increasing the current $I$ directly increases the strength of the resulting magnetic field[cite: 46].
-
-:::{figure} https://github.com/DEIN_BILD_LINK_HIER.png
-:name: fig_solenoid
-Illustration of the solenoid principle: An electrical current running through coiled wires generates the homogeneous $B_0$ magnetic field inside the scanner bore.
-:::
-
