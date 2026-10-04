@@ -36,7 +36,10 @@ While traditional superconducting magnets require massive amounts of liquid heli
 
 They developed a novel MRI system equipped with "DryCool" technology that operates with a sealed-for-life magnet requiring only 0.7 liters of liquid helium {cite}`SiemensFreeMax`. This innovation makes MRI technology more accessible globally, easier to install without massive quench pipes, and significantly more sustainable.
 
-[Exhibition Deutsches Museum Munich](https://blog.deutsches-museum.de/2024/09/12/default-d2eccbfb4b1805190420437a82fd0a3e)
+<img width="1179" height="1179" alt="Zukunftspreis_Neues_Modul_L1000241" src="https://github.com/user-attachments/assets/a5111f04-4251-4514-a32e-d0b4e2ab8d8a" />
+[Photo: Ansgar Pudenz/Deutscher Zukunftspreis]
+
+[Exhibition Deutsches Museum Munich](https://www.deutsches-museum.de/museum/aktuell/offen-fuer-alle-ein-mrt-fuer-die-welt)
 
 ### Pushing the Limits: 9.4T Research Scanners
 While 1.5T and 3T are the clinical standard, the absolute cutting edge of human MRI lies at ultra-high fields like 9.4 Tesla. There are only a handful of 9.4T systems worldwide authorized for human use (notable European examples being located at the research institutes in Tübingen and Jülich, Germany).
