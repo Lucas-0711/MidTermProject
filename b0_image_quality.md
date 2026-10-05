@@ -17,8 +17,8 @@ Because SNR increases approximately linearly with the static magnetic field stre
 *   **Faster Scan Times:** If the baseline 1.5T resolution is sufficient, the extra signal can be used to accelerate the scan. Since $SNR \propto \sqrt{t}$, doubling the baseline SNR allows the scan time to be cut significantly while maintaining diagnostic quality.
 
 ## Tissue Contrast: $T_1$ Prolongation
-As the $B_0$ field gets stronger, protons precess faster ($\omega_0 = \gamma B_0$). This makes it harder for them to release absorbed energy into their surrounding molecular lattice, which prolongs **$T_1$ relaxation times**. 
-*   **The Clinical Impact:** $T_1$-weighted contrast between different tissues (like gray and white matter in the brain) diminishes at higher field strengths. To compensate and restore this contrast, the Repetition Time (TR) of the pulse sequence must be increased, which can lengthen the overall scan time. {cite}`Schild1990`
+As the $B_0$ field gets stronger, protons precess faster ($\omega_0 = \gamma B_0$). This makes it harder for them to release absorbed energy into their surrounding molecular lattice, which prolongs **$T_1$ relaxation times**. {cite}`Schild1990`
+*   **The Clinical Impact:** $T_1$-weighted contrast between different tissues (like gray and white matter in the brain) diminishes at higher field strengths. To compensate and restore this contrast, the Repetition Time (TR) of the pulse sequence must be increased, which can lengthen the overall scan time.
 
 ## Susceptibility and Chemical Shift
 Both magnetic susceptibility and chemical shift effects scale linearly with $B_0$. This creates distinct advantages and disadvantages:
