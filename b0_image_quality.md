@@ -14,11 +14,11 @@ In MRI, SNR is primarily governed by four factors:
 ## Balancing Spatial Resolution and Scan Speed
 Because SNR increases approximately linearly with the static magnetic field strength ($SNR \propto B_0$), a 3T scanner inherently provides roughly double the baseline SNR of a 1.5T scanner. This surplus acts as a "currency" that technologists can spend in two ways:
 *   **Higher Spatial Resolution:** The extra signal can be divided into smaller voxels, providing sharper images capable of resolving finer anatomical details (e.g., minute ligaments or cranial nerves).
-*   **Faster Scan Times:** If the baseline 1.5T resolution is sufficient, the extra signal can be used to accelerate the scan. Since $SNR \propto \sqrt{\text{Time}}$, doubling the baseline SNR allows the scan time to be cut significantly while maintaining diagnostic quality.
+*   **Faster Scan Times:** If the baseline 1.5T resolution is sufficient, the extra signal can be used to accelerate the scan. Since $SNR \propto \sqrt{t}}$, doubling the baseline SNR allows the scan time to be cut significantly while maintaining diagnostic quality.
 
 ## Tissue Contrast: $T_1$ Prolongation
-As the $B_0$ field gets stronger, protons precess faster (higher Larmor frequency). This makes it harder for them to release absorbed energy into their surrounding molecular lattice, which prolongs **$T_1$ relaxation times**. 
-*   **The Clinical Impact:** $T_1$-weighted contrast between different tissues (like gray and white matter in the brain) diminishes at higher field strengths. To compensate and restore this contrast, the Repetition Time (TR) of the pulse sequence must be increased, which can lengthen the overall scan time.
+As the $B_0$ field gets stronger, protons precess faster ($\omega_0 = \gamma B_0$). This makes it harder for them to release absorbed energy into their surrounding molecular lattice, which prolongs **$T_1$ relaxation times**. 
+*   **The Clinical Impact:** $T_1$-weighted contrast between different tissues (like gray and white matter in the brain) diminishes at higher field strengths. To compensate and restore this contrast, the Repetition Time (TR) of the pulse sequence must be increased, which can lengthen the overall scan time. {cite}`Schild`
 
 ## Susceptibility and Chemical Shift
 Both magnetic susceptibility and chemical shift effects scale linearly with $B_0$. This creates distinct advantages and disadvantages:
